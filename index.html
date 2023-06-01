@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/seven-segment" rel="stylesheet">
+        <title>Scorecard</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="players">
+                <h3 class="p1">PLAYER 1</h3>
+                <div id="p1-score">
+                    <p class="score-text" id="p1-text">0</p>
+                </div>
+                <div class="points-buttons">
+                    <button id="plus1-1" onclick="addOnePOne()">+1</button>
+                    <button id="plus2-1" onclick="addTwoPOne()">+2</button>
+                    <button id="plus3-1" onclick="addThreePOne()">+3</button>
+                </div>
+            </div>
+            <div class="players">
+                <h3 class="p2">PLAYER 2</h3>
+                <div id="p2-score">
+                    <p class="score-text" id="p2-text">0</p>
+                </div>
+                <div class="points-buttons">
+                    <button id="plus1-2" onclick="addOnePTwo()">+1</button>
+                    <button id="plus2-2" onclick="addTwoPTwo()">+2</button>
+                    <button id="plus3-2" onclick="addThreePTwo()">+3</button>
+                </div>
+            </div>
+            <button id="new-game" onclick="newGame()">NEW GAME</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

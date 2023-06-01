@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Seven Segment';
+    src: url('https://fonts.cdnfonts.com/css/seven-segment');
+  }
+body {
+    margin: 0;
+    background-image: url("game.jpg");
+    background-size: cover;
+
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 580px;
+    height: 340px;
+    background-color: #7C3AED;
+    box-shadow: 0px 0px 15px 8px rgb(82, 33, 117);
+    border-radius: 10px;
+    color: #eeeeee;
+    font-family: verdana;
+}
+h3 {
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.players {
+    margin: 0 auto;
+    width: 290px;
+    height: 145px;
+}
+#p1-score {
+    margin: 0 auto;
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    box-shadow: inset 0px 0px 8px 1px grey;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#p2-score {
+    margin: 0 auto;
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    box-shadow: inset 0px 0px 8px 1px grey;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.points-buttons {
+    margin: 0 auto;
+    width: 155px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#new-game {
+    width: 155px;
+    max-height: 50px;
+    margin-top: 50px;
+}
+button {
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: #A78BFA;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 3px 3px 4px rgb(82, 33, 117);
+}
+.score-text {
+    margin: 0 auto;
+    font-family: 'Seven Segment', 'Roboto', monospace;
+    font-size: 5em;
+    font-weight: bold;
+}
